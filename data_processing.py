@@ -45,5 +45,3 @@ for path in Path(dir_raw).iterdir():
     file_num += 1
     out_file = '{}/{}_{}.csv'.format(dir_prepared, file_num, path.stem)
     prepare_data(path, out_file)
-
-    print(file_num)
